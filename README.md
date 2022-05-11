@@ -8,4 +8,4 @@ I few ideas of features to have. Changes to the following systems would be monit
 - build tool configuration files
 - files flagged by gitignore
 
-The reason for tracking files in gitignore, is that some files shouldn't have their changes tracked with the source code, but may still cause the build to fail if they aren't manually cleaned out. Although setting up the files to be automatically cleaned would be a better solution, when troubleshooting the a build failing during development, being able to track changes to them can only help.
+The reason for tracking files in gitignore, is that some files shouldn't have their changes tracked with the source code, but may still cause the build to fail if they aren't manually cleaned out. Although setting up the files to be automatically cleaned would be a better solution, when troubleshooting a build failing during development, being able to track changes to them can be helpful.
